@@ -1,0 +1,66 @@
+main start at this time 1648607903.3415642
+ogbn-arxiv
+# Nodes: 169343
+# Edges: 2315598
+# Train: 90941
+# Val: 29799
+# Test: 48603
+# Classes: 40
+
+in feats:  128
+The real block id is  2
+get_global_graph_edges_ids_block function  spend 0.022021770477294922
+range selection method range initialization spend 0.014690399169921875
+time for parepare:  0.020192623138427734
+local_output_nid generation:  0.015036344528198242
+local_in_edges_tensor generation:  0.014453649520874023
+mini_batch_src_global generation:  0.014823675155639648
+r_  generation:  0.20717072486877441
+local_output_nid generation:  0.015933752059936523
+local_in_edges_tensor generation:  0.006552219390869141
+mini_batch_src_global generation:  0.01851963996887207
+r_  generation:  0.21593666076660156
+----------------------check_connections_block total spend ----------------------------- 0.5991852283477783
+generate_one_block  0.23366594314575195
+generate_one_block  0.23395180702209473
+The real block id is  1
+get_global_graph_edges_ids_block function  spend 0.0453338623046875
+gen group dst list time:  0.008674144744873047
+time for parepare:  0.021840333938598633
+local_output_nid generation:  0.015078067779541016
+local_in_edges_tensor generation:  0.048293113708496094
+mini_batch_src_global generation:  0.05086493492126465
+r_  generation:  0.5864274501800537
+local_output_nid generation:  0.02250385284423828
+local_in_edges_tensor generation:  0.04484057426452637
+mini_batch_src_global generation:  0.06037306785583496
+r_  generation:  0.6050059795379639
+----------------------check_connections_block total spend ----------------------------- 1.6831130981445312
+generate_one_block  0.7669782638549805
+generate_one_block  0.7719695568084717
+The real block id is  0
+get_global_graph_edges_ids_block function  spend 0.03966474533081055
+gen group dst list time:  0.012893438339233398
+time for parepare:  0.020227432250976562
+local_output_nid generation:  0.019509077072143555
+local_in_edges_tensor generation:  0.04967474937438965
+mini_batch_src_global generation:  0.05182838439941406
+r_  generation:  0.659273624420166
+local_output_nid generation:  0.02695488929748535
+local_in_edges_tensor generation:  0.05000448226928711
+mini_batch_src_global generation:  0.0643620491027832
+r_  generation:  0.6849398612976074
+----------------------check_connections_block total spend ----------------------------- 1.883430004119873
+generate_one_block  0.7786865234375
+generate_one_block  0.9444413185119629
+connection checking time:  3.5665431022644043
+block generation total time  3.262075662612915
+average batch blocks generation time:  1.6310378313064575
+pseudo mini batch 0 input nodes size: 166391
+torch.Size([166391, 128])
+torch.Size([162616, 256])
+pseudo mini batch 1 input nodes size: 166371
+torch.Size([166371, 128])
+torch.Size([162530, 256])
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.08163213729858398 |0.19982826709747314 |0.37089037895202637 |0.00019621849060058594 |0.09664440155029297 |0.005953788757324219 |
